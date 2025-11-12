@@ -1,0 +1,132 @@
+\documentclass[11pt,a4paper]{article}
+
+% Essential packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+
+% Mathematics packages
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools}
+
+% Physics packages
+\usepackage{physics}
+\usepackage{siunitx}
+
+% Graphics and figures
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{subfig}
+
+% Bibliography
+\usepackage[style=numeric,sorting=none]{biblatex}
+\addbibresource{references.bib}
+
+% Hyperlinks
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+
+% Page layout
+\usepackage[margin=2.5cm]{geometry}
+
+% Theorems and definitions
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+% Document metadata
+\title{GGI Dark Matter School Notes}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+These notes contain lectures and materials from the GGI Dark Matter School. The school covers theoretical and experimental aspects of dark matter physics, including detection methods, candidate particles, and astrophysical observations.
+\end{abstract}
+
+\tableofcontents
+\newpage
+
+\section{Introduction}
+
+This document contains notes from the GGI Dark Matter School. Each section corresponds to different lecture topics and discussions during the school.
+
+\subsection{Overview}
+
+The study of dark matter is one of the most pressing questions in modern physics. Despite strong evidence for its existence from astrophysical and cosmological observations, the fundamental nature of dark matter remains unknown.
+
+\subsection{Structure of These Notes}
+
+These notes are organized by lecture topics:
+\begin{itemize}
+    \item Theoretical foundations
+    \item Experimental methods
+    \item Astrophysical observations
+    \item Candidate particles and models
+\end{itemize}
+
+\section{Theoretical Foundations}
+
+\subsection{Evidence for Dark Matter}
+
+Dark matter was first inferred from observations of galaxy rotation curves. The orbital velocities of stars in galaxies remain approximately constant at large radii, rather than decreasing as expected from visible matter alone.
+
+\subsection{Dark Matter Density}
+
+The dark matter density in our galaxy is approximately:
+\begin{equation}
+    \rho_{DM} \sim \SI{0.3}{GeV/cm^3}
+\end{equation}
+
+\section{Detection Methods}
+
+\subsection{Direct Detection}
+
+Direct detection experiments search for the scattering of dark matter particles off nuclei in terrestrial detectors. The expected event rate is:
+\begin{equation}
+    R = \frac{\rho_{DM}}{m_{DM}} \langle \sigma v \rangle
+\end{equation}
+where $\rho_{DM}$ is the local dark matter density, $m_{DM}$ is the dark matter mass, and $\langle \sigma v \rangle$ is the thermally averaged cross-section.
+
+\subsection{Indirect Detection}
+
+Indirect detection searches for the products of dark matter annihilation or decay in astrophysical sources.
+
+\section{Dark Matter Candidates}
+
+\subsection{Weakly Interacting Massive Particles (WIMPs)}
+
+WIMPs are among the most well-motivated dark matter candidates. They naturally achieve the correct relic abundance through thermal freeze-out.
+
+\subsection{Axions}
+
+Axions were originally proposed to solve the strong CP problem but also serve as excellent dark matter candidates.
+
+\section{Astrophysical Observations}
+
+\subsection{Galaxy Rotation Curves}
+
+Measurements of rotation curves provide strong evidence for dark matter halos around galaxies.
+
+\subsection{Gravitational Lensing}
+
+Gravitational lensing observations allow us to map the distribution of dark matter in galaxy clusters.
+
+\section{Conclusions}
+
+The search for dark matter continues to be one of the most active areas in physics, combining theory, experiment, and astrophysical observations.
+
+% Print bibliography
+\printbibliography
+
+\end{document}
